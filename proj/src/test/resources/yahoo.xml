@@ -1,0 +1,16 @@
+<suite name ="yahoo">
+<test name="tst_sanitytest_Chrome">
+	<parameter name="browser" value="Chrome"/>
+	<classes>
+		<class name="proj.sanitytest"/>
+	</classes>
+	</test>	
+<test name="tst_retesttest_Chrome">
+	<parameter name="browser" value="Chrome"/>
+	<classes>
+		<class name="proj.restest"/>
+	</classes>
+	</test>
+	
+	
+</suite>
